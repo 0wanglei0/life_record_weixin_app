@@ -4,12 +4,13 @@
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
 
-    <button bindtap='ck' class='next_page'> 获取头像昵称 </button>
+    <text>记录生活美好时刻</text>
+    <button bindtap='ck' class='next_page'> 回忆相册 </button>
+    <button bindtap='ck_1' class='next_page_button'> 每日账本 </button>
+
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+
+  <text class="bottom_text">我们努力的那颗心\n从未改变</text>
 </view>

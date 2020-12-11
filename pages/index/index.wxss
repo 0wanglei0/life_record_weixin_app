@@ -21,5 +21,16 @@
 }
 
 .next_page {
-  margin-top: 100px;
+  margin-top: 80px;
+}
+
+.next_page_button {
+  margin-top: 20px;
+}
+
+.bottom_text {
+  text-align: center;
+  position:fixed;
+  bottom:0;
+  padding-bottom: 10px;
 }
